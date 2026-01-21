@@ -1,0 +1,16 @@
+{
+  "name": "dsa-interview",
+  "version": "0.1.0",
+  "description": "数据结构与算法面试准备项目",
+  "scripts": {
+    "lc:list": "leetcode list",
+    "lc:show": "python scripts/lc-wrapper.py show",
+    "lc:test": "leetcode test",
+    "lc:submit": "leetcode submit",
+    "lc:pull": "leetcode submission -a -o leetcode-imports",
+    "lc:sync": "python scripts/lc-wrapper.py sync"
+  },
+  "devDependencies": {
+    "leetcode-cli": "^2.6.2"
+  }
+}
